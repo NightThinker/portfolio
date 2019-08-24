@@ -1,7 +1,10 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 import { createGlobalStyle } from 'styled-components';
-import { usePersistentCanvas } from './utils/canvas';
 import reset from 'styled-reset';
+
+import Layout from './components/Layout/Layout';
+import routes from './utils/routes';
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
@@ -32,14 +35,13 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 function App() {
-  const [canvasRef] = usePersistentCanvas();
+  // const [canvasRef] = usePersistentCanvas();
   return (
-    <React.Fragment>
+    <Layout>
       <GlobalStyle />
-      <h1>test</h1>
-      <canvas ref={canvasRef} width={window.innerWidth} height={window.innerHeight} />
-    </React.Fragment>
+      {routes}
+    </Layout>
   );
 }
 
-export default App;
+export default withRouter(App);
