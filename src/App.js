@@ -17,7 +17,7 @@ const GlobalStyle = createGlobalStyle`
     font-size: 16px;
   }
   h1 {
-    font-size: 1.25rem;
+    font-size: 2.667rem;
     margin: 0;
   }
   h2 {

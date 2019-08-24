@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const HeaderStyle = styled.div`
-  height: 56px;
+  height: 53px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -23,5 +23,5 @@ export const LogoStyle = styled.div`
   height: 80%;
 `;
 export const MainStyle = styled.main`
-  margin-top: 72px;
+  margin-top: 53px;
 `;
