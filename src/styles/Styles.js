@@ -12,7 +12,7 @@ export const WhiteColor = '#FFFFFF';
 export const White50Color = 'rgba(255, 255, 255, 0.5);';
 export const OverlayColor = 'rgba(0, 0, 0, 0.3215686274509804);';
 
-export const BlueColor = '#09c2c9';
+export const BlueColor = '#04C2C9';
 
 // Text color
 export const Gray70Color = '#333333';
@@ -46,8 +46,8 @@ export const BlurShadow = `box-shadow: 0 11px 15px -7px rgba(0,0,0,0.2), 0 24px 
 export const H1 = 'font-size: 2.667rem; line-height: 3rem;';
 export const H2 = 'font-size: 2.2rem; '; // 44px
 export const H3 = 'font-size: 1.5rem; line-height: 1.8125rem;'; // 24px
-export const H4 = 'font-size: 1rem; line-height: 1.1875rem;'; // 16px
-export const H5 = 'font-size: 0.8125rem; line-height: 0.9375rem;'; // 13px
+export const H4 = 'font-size: 1.125rem; line-height: 1.1875rem;'; // 16px
+export const H5 = 'font-size: 1rem; line-height: 0.9375rem;'; // 13px
 export const H6 = 'font-size: 0.6875rem; line-height: 0.875rem;'; // 11px
 
 // weight
