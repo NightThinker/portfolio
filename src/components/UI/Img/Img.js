@@ -2,7 +2,7 @@ import React from 'react';
 
 import { ImgStyle } from './ImgStyle';
 
-const logo = (props) => {
+const Img = (props) => {
   console.log('TCL: logo -> props', props);
   return (
     <ImgStyle width={props.width}>
@@ -11,4 +11,4 @@ const logo = (props) => {
   );
 };
 
-export default logo;
+export default Img;
